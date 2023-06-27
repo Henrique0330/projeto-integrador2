@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  font-family: "Kanit", sans-serif;
+  background-image: url("https://st2.depositphotos.com/1000419/12451/v/450/depositphotos_124514706-stock-illustration-chemistry-background-seamless-pattern-for.jpg");
+}
+
+.t {
+  white-space: normal;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  margin-top: 20px;
+  margin: auto;
+  width: 85%;
+}
+
+.t:hover {
+  width: 90%;
+  color: #7f6acc;
+}
+
+.t1 {
+  background-color: white;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+}
+
+.t2 {
+  padding-left: 30px;
+  font-size: 40px;
+  flex-direction: column;
+  font-style: bold;
+  border-left: 2px solid black;
+}
+
+.p1 {
+  line-break: normal;
+}
+
+#img1 {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  padding: 10px 25px;
+  border: 1px solid;
+  border-radius: 1000px;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #7f6acc;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(27, 27, 27, 0.5);
+}
+
+.btn:active {
+  transform: translateY(-3px);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.btn:hover::after {
+  background-color: rgb(113, 105, 255);
+  transform: scaleX(1.4) scaleY(1.5);
+  opacity: 0;
+}
+
+.menu {
+  padding: 10px 20px;
+
+  border-radius: 16px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main {
+  background-color: white;
+  text-align: center;
+  margin: 2cm 3cm auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+p {
+  text-align: justify;
+  padding: 3px;
+}
+
+.image {
+  text-align: center;
+  margin: auto;
+}
+
+#linha {
+  width: 50%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+
+}
+
+#linha2 {
+  width: 25%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+
+}
+
+.sub-linha {
+  text-align: center;
+  font-size: small;
+  padding: none;
+}
+
+.referencia {
+  background-color: white;
+  margin: 30px 2cm;
+  list-style: none;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
