@@ -110,15 +110,15 @@
 .main {
   background-color: white;
   text-align: center;
-  margin: 2cm 3cm auto;
+  margin: 2cm 6cm auto;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 3px;
-  border-radius: 20px;
+  padding: 10px;
 }
 
-p {
+.texto {
   text-align: justify;
   padding: 3px;
+  text-indent: 6%;
 }
 
 .image {
@@ -142,20 +142,35 @@ p {
 
 }
 
-.sub-linha {
-  text-align: center;
+#sub-linha1 {
+  text-align: left;
+  text-indent: 24.9%;
+  font-size: small;
+  padding: none;
+}
+
+#sub-linha2 {
+  text-align: left;
+  text-indent: 37.3%;
   font-size: small;
   padding: none;
 }
 
 .referencia {
   background-color: white;
-  margin: 30px 2cm;
+  text-indent: 6%;
   list-style: none;
   padding: 10px;
+  font-size: 15px;
+  text-align: left;
   border-radius: 20px;
   text-decoration: none;
   color: black;
+}
+
+h1 {
+  text-align: left;
+  text-indent: 10px;
 }
 
 a {
