@@ -6,50 +6,10 @@
 
 :root {
   font-family: "Kanit", sans-serif;
-  background-image: url("https://st2.depositphotos.com/1000419/12451/v/450/depositphotos_124514706-stock-illustration-chemistry-background-seamless-pattern-for.jpg");
+ background-image: url("https://st2.depositphotos.com/1000419/12451/v/450/depositphotos_124514706-stock-illustration-chemistry-background-seamless-pattern-for.jpg");
 }
 
-.t {
-  white-space: normal;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 30px;
-  display: flex;
-  margin-top: 20px;
-  margin: auto;
-  width: 85%;
-}
-
-.t:hover {
-  width: 90%;
-  color: #7f6acc;
-}
-
-.t1 {
-  background-color: white;
-  width: 100%;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  display: flex;
-}
-
-.t2 {
-  padding-left: 30px;
-  font-size: 40px;
-  flex-direction: column;
-  font-style: bold;
-  border-left: 2px solid black;
-}
-
-.p1 {
-  line-break: normal;
-}
-
-#img1 {
-  width: 100%;
-  margin: auto;
-  display: block;
-}
+/*Menu*/
 
 .btn:link,
 .btn:visited {
@@ -107,7 +67,102 @@
   justify-content: center;
 }
 
-.main {
+/*Página principal*/
+.t {
+  white-space: normal;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  margin-top: 20px;
+  margin: auto;
+  width: 85%;
+}
+
+.t:hover {
+  width: 90%;
+  color: #7f6acc;
+}
+
+.t1 {
+  background-color: white;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  border: black solid 2px;
+}
+
+.t2 {
+  padding-left: 30px;
+  font-size: 40px;
+  flex-direction: column;
+  font-style: bold;
+  border-left: 2px solid black;
+}
+
+.p1 {
+  line-break: normal;
+}
+
+#img1 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#img2 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#img3 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#img3:hover {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#img4 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#img5 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#img6 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 20px 0px 0px 20px;
+}
+
+/*Paǵinas de Texto*/
+main {
   background-color: white;
   text-align: center;
   margin: 2cm 6cm auto;
@@ -117,7 +172,7 @@
 
 .texto {
   text-align: justify;
-  padding: 3px;
+  padding: 6px;
   text-indent: 6%;
 }
 
@@ -126,46 +181,14 @@
   margin: auto;
 }
 
-#linha {
-  width: 50%;
-  display: block;
-  border: 2px solid black;
-  margin: auto;
-
-}
-
-#linha2 {
-  width: 25%;
-  display: block;
-  border: 2px solid black;
-  margin: auto;
-
-}
-
-#sub-linha1 {
-  text-align: left;
-  text-indent: 24.9%;
-  font-size: small;
-  padding: none;
-}
-
-#sub-linha2 {
-  text-align: left;
-  text-indent: 37.3%;
-  font-size: small;
-  padding: none;
-}
-
 .referencia {
   background-color: white;
-  text-indent: 6%;
-  list-style: none;
-  padding: 10px;
+  text-indent: 0;
   font-size: 15px;
   text-align: left;
-  border-radius: 20px;
   text-decoration: none;
   color: black;
+  margin: none;
 }
 
 h1 {
