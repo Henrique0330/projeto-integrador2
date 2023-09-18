@@ -11,6 +11,10 @@
 
 /*Menu*/
 
+header {
+  background-color: #7f6acc;
+}
+
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -68,7 +72,7 @@
 }
 
 /*Página principal*/
-.t {
+.principal {
   white-space: normal;
   background-color: white;
   border: 2px solid black;
@@ -79,12 +83,12 @@
   width: 85%;
 }
 
-.t:hover {
+.principal:hover {
   width: 90%;
   color: #7f6acc;
 }
 
-.t1 {
+.img {
   background-color: white;
   width: 100%;
   border-top-left-radius: 25px;
@@ -93,7 +97,7 @@
   border: black solid 2px;
 }
 
-.t2 {
+.title {
   padding-left: 30px;
   font-size: 40px;
   flex-direction: column;
@@ -101,7 +105,7 @@
   border-left: 2px solid black;
 }
 
-.p1 {
+.index-text {
   line-break: normal;
 }
 
@@ -198,4 +202,8 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  background-color: #7f6acc;
 }
