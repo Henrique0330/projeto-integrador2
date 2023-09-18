@@ -11,7 +11,7 @@
 
 /*Menu*/
 
-header {
+header, footer {
   background-color: #7f6acc;
 }
 
@@ -202,8 +202,4 @@ h1 {
 
 a {
   text-decoration: none;
-}
-
-footer {
-  background-color: #7f6acc;
 }
