@@ -1,3 +1,6 @@
+:root {
+  --cor-principal: #7f6acc;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +15,7 @@
 
 header,
 footer {
-  background-color: #7f6acc;
+  background-color: var(--cor-principal);
 }
 
 footer {
@@ -22,18 +25,15 @@ footer {
 
 .btn:link,
 .btn:visited {
-  text-decoration: none;
   color: rgb(27, 27, 27);
-  padding: 10px 25px;
+  padding: 0 25px;
   border: 1px solid;
   border-radius: 1000px;
-  display: inline-block;
-  transition: all 0.2s;
-  position: relative;
+  display: flex;
+  transition: all 0.2s ease-in-out;
   margin: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color: #7f6acc;
+  background-color: var(--cor-principal);
+  padding: 10px 25px;
 }
 
 .btn:hover {
@@ -48,18 +48,10 @@ footer {
 .btn::after {
   content: "";
   display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-  transition: all 0.3s;
 }
 
 .btn:hover::after {
-  background-color: rgb(113, 105, 255);
+  background-color: var(--cor-principal);
   transform: scaleX(1.4) scaleY(1.5);
   opacity: 0;
 }
@@ -87,6 +79,7 @@ footer {
   padding: 1px;
   border-radius: 10px;
   margin: 2vw;
+  transition: 0.5s ease-in-out;
 }
 
 .img {
@@ -111,6 +104,17 @@ footer {
   font-size: 3vw;
 }
 
+.Topicos:hover {
+  background-color: var(--cor-principal);
+  transition: 0.5s ease-in-out;
+  scale: 1.1;
+}
+
+.Topicos::after {
+  scale: 1;
+  background-color: white;
+  transition: 0.5s ease-in-out;
+}
 /*Paǵinas de Texto*/
 main {
   background-color: white;
@@ -142,7 +146,7 @@ main {
   margin: none;
 }
 
-h1 {
+h1,  h2 {
   text-align: left;
   text-indent: 10px;
 }
@@ -157,3 +161,132 @@ ul {
   list-style-type: none;
 }
 
+/*Página Átomo*/
+#linha {
+  width: 50%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#linha2 {
+  width: 25%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha1 {
+  text-align: left;
+  text-indent: 24.9%;
+  font-size: small;
+  padding: none;
+}
+
+#sub-linha2 {
+  text-align: left;
+  text-indent: 37.3%;
+  font-size: small;
+  padding: none;
+}
+
+/*Página Tabela*/
+#linha3 {
+  width: 40%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha3 {
+  text-align: left;
+  text-indent: 29.8%;
+  font-size: small;
+  padding: none;
+}
+
+/*Página Ligação*/
+#linha4 {
+  width: 40%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha4 {
+  text-align: left;
+  text-indent: 29.8%;
+  font-size: small;
+  padding: none;
+}
+
+/*Página Mistura*/
+#linha5 {
+  width: 40%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha5 {
+  text-align: left;
+  text-indent: 29.8%;
+  font-size: small;
+  padding: none;
+}
+#linha6 {
+  width: 40%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha6 {
+  text-align: left;
+  text-indent: 29.8%;
+  font-size: small;
+  padding: none;
+}
+#linha7 {
+  width: 40%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha7 {
+  text-align: left;
+  text-indent: 29.8%;
+  font-size: small;
+  padding: none;
+}
+
+/*Página Reações*/
+#linha8 {
+  width: 40%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha8 {
+  text-align: left;
+  text-indent: 29.8%;
+  font-size: small;
+  padding: none;
+}
+
+/*Página Radioatividade*/
+#linha9 {
+  width: 40%;
+  display: block;
+  border: 2px solid black;
+  margin: auto;
+}
+
+#sub-linha9 {
+  text-align: left;
+  text-indent: 29.8%;
+  font-size: small;
+  padding: none;
+}
