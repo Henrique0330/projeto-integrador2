@@ -111,7 +111,6 @@ footer {
 }
 
 .Topicos::after {
-  scale: 1;
   background-color: white;
   transition: 0.5s ease-in-out;
 }
@@ -179,7 +178,14 @@ ul {
 #sub-linha1 {
   text-align: left;
   text-indent: 24.9%;
-  font-size: small;
+  font-size: small;padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
   padding: none;
 }
 
@@ -187,13 +193,20 @@ ul {
   text-align: left;
   text-indent: 37.3%;
   font-size: small;
-  padding: none;
 }
 
 /*Página Tabela*/
 #linha3 {
   width: 40%;
-  display: block;
+  display: block;padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
+  padding: none;
   border: 2px solid black;
   margin: auto;
 }
@@ -202,7 +215,6 @@ ul {
   text-align: left;
   text-indent: 29.8%;
   font-size: small;
-  padding: none;
 }
 
 /*Página Ligação*/
@@ -217,7 +229,6 @@ ul {
   text-align: left;
   text-indent: 29.8%;
   font-size: small;
-  padding: none;
 }
 
 /*Página Mistura*/
@@ -232,7 +243,6 @@ ul {
   text-align: left;
   text-indent: 29.8%;
   font-size: small;
-  padding: none;
 }
 #linha6 {
   width: 40%;
@@ -245,7 +255,6 @@ ul {
   text-align: left;
   text-indent: 29.8%;
   font-size: small;
-  padding: none;
 }
 #linha7 {
   width: 40%;
@@ -258,7 +267,6 @@ ul {
   text-align: left;
   text-indent: 29.8%;
   font-size: small;
-  padding: none;
 }
 
 /*Página Reações*/
@@ -273,7 +281,6 @@ ul {
   text-align: left;
   text-indent: 29.8%;
   font-size: small;
-  padding: none;
 }
 
 /*Página Radioatividade*/
@@ -288,5 +295,4 @@ ul {
   text-align: left;
   text-indent: 29.8%;
   font-size: small;
-  padding: none;
 }
