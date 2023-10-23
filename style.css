@@ -1,21 +1,32 @@
 :root {
   --cor-principal: #7f6acc;
 }
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
+  text-decoration: none;
 }
 
 :root {
   font-family: "Kanit", sans-serif;
 }
 
+body {
+  background: url(imagens/pattern-bg2.svg),
+    /*linear-gradient(180deg, rgba(216,123,255,1) 0%, rgba(228,162,255,1) 100%);*/
+    linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(208, 93, 255, 1) 100%);
+}
+
 /*Menu*/
 
 header,
 footer {
-  background-color: var(--cor-principal);
+  /*background-color: var(--cor-principal);*/
+  background: rgb(115, 45, 144);
+  background: linear-gradient(180deg, rgba(115, 45, 144, 1) 0%, rgba(170, 67, 213, 1) 100%);
+  color: white;
 }
 
 footer {
@@ -25,21 +36,24 @@ footer {
 
 .btn:link,
 .btn:visited {
-  color: rgb(27, 27, 27);
   padding: 0 25px;
-  border: 1px solid;
+  /*border: 1px solid;*/
   border-radius: 1000px;
   display: flex;
   transition: all 0.2s ease-in-out;
   margin: 10px;
-  background-color: var(--cor-principal);
+  /*background-color: var(--cor-principal);*/
   padding: 10px 25px;
-  
+  color: white;
+
 }
 
 .btn:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(27, 27, 27, 0.5);
+  /*transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.233);*/
+  border: 1px solid rgba(255, 255, 255, 0.404);
+  font-size: 1.08em;
+
 }
 
 .btn:active {
@@ -67,25 +81,28 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   font-size: 20px;
+
 }
 
 /*Página principal*/
 
 .Topicos {
   border: 2px black solid;
-  width: 45%;
-  height: 20%;
+  width: 25vw;
+  height: 15vw;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: row;
   padding: 1px;
   border-radius: 10px;
   margin: 2vw;
   transition: 0.5s ease-in-out;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
 }
 
 .img {
-  width: 15vw;
+  width: 25vw;
   height: 15vw;
   border-radius: 10px;
 }
@@ -97,6 +114,7 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
+
 }
 
 .p-topics {
@@ -104,6 +122,9 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   font-size: 3vw;
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .Topicos:hover {
@@ -116,6 +137,7 @@ footer {
   background-color: white;
   transition: 0.5s ease-in-out;
 }
+
 /*Paǵinas de Texto*/
 main {
   background-color: white;
@@ -142,18 +164,17 @@ main {
   text-indent: 0;
   font-size: 15px;
   text-align: left;
-  text-decoration: none;
   color: black;
   margin: none;
 }
 
-h1,  h2 {
+h1,
+h2 {
   text-align: left;
   text-indent: 10px;
 }
 
-a {
-  text-decoration: none;
+.referencia a {
   display: flex;
   color: black;
 }
@@ -180,15 +201,7 @@ ul {
 #sub-linha1 {
   text-align: left;
   text-indent: 24.9%;
-  font-size: small;padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
+  font-size: small;
 }
 
 #sub-linha2 {
@@ -200,15 +213,7 @@ ul {
 /*Página Tabela*/
 #linha3 {
   width: 40%;
-  display: block;padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
-  padding: none;
+  display: block;
   border: 2px solid black;
   margin: auto;
 }
@@ -246,6 +251,7 @@ ul {
   text-indent: 29.8%;
   font-size: small;
 }
+
 #linha6 {
   width: 40%;
   display: block;
@@ -258,6 +264,7 @@ ul {
   text-indent: 29.8%;
   font-size: small;
 }
+
 #linha7 {
   width: 40%;
   display: block;
@@ -313,6 +320,7 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   .menu {
     font-size: 14px;
   }
